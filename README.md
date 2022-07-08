@@ -1,4 +1,4 @@
-#VeigaristaJS
+# VeigaristaJS
 
 É uma biblioteca SourceOpen, tem como objetivo ajudar na web scraping de dados da API da riot games https://developer.riotgames.com/ (Apenas League of legends). 
 Ops: Primeira vez programando em TypeScript, sua ajuda é sempre bem-vinda.
