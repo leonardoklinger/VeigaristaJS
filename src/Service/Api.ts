@@ -1,4 +1,5 @@
 import axios from "axios"
+import { Erros } from "../Constants/index"
 
 async function Api(url: string) {
     try {
@@ -6,8 +7,7 @@ async function Api(url: string) {
         const { data } = api
         return data
     } catch (error) {
-        if (error.response.status === 403) return console.warn("Chave da api informada está errada!")
-        return error.response.data
+        return Erros[error.response.status as keyof typeof Erros]
     }
 }
 
