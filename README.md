@@ -14,7 +14,7 @@ const veigar = new VeigaristaJS("Sua-Key-Vem-Aqui")
 
 ## Funções disponiveis
 ~~~javascript
-veigar.procurarUserPorNome("Mateus verme", "br1", (resposta) =>{
+veigar.procurarUserPorNome("Leonardo", "br1", (resposta) =>{
     console.log(resposta)
 })
 
