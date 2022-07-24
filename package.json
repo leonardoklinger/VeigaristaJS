@@ -1,14 +1,20 @@
 {
-  "dependencies": {
-    "axios": "^0.27.2"
-  },
+  "name": "VeigaristaJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "build": "npx tsc",
     "clean": "tsc --build --clean",
     "dev": "nodemon --exec npx ts-node ./index.ts"
   },
+  "author": "Leonardo Klinger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
   "devDependencies": {
     "nodemon": "^2.0.19",
-    "ts-node": "^10.8.2"
+    "ts-node": "^10.9.1"
   }
 }
