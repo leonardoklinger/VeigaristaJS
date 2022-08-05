@@ -24,15 +24,13 @@ class VeigaristaJS {
 
                 Object.keys(elo).map(key => {
                     resultadoRankead.push({
-                        [RankedTraducao[elo[key].queueType]]: {
-                            tipoRankeada: RankedTraducao[elo[key].queueType],
-                            elo: EloTraducao[elo[key].tier],
-                            rank: elo[key].rank,
-                            pontos: elo[key].leaguePoints,
-                            vitorias: elo[key].wins,
-                            derrotas: elo[key].losses,
-                            winRate: (elo[key].wins / (elo[key].wins + elo[key].losses) * 100).toFixed(1) + "%"
-                        }
+                        tipoRankeada: RankedTraducao[elo[key].queueType],
+                        elo: EloTraducao[elo[key].tier],
+                        rank: elo[key].rank,
+                        pontos: elo[key].leaguePoints,
+                        vitorias: elo[key].wins,
+                        derrotas: elo[key].losses,
+                        winRate: (elo[key].wins / (elo[key].wins + elo[key].losses) * 100).toFixed(1) + "%"
                     })
                 })
 
