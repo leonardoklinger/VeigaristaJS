@@ -28,5 +28,5 @@ const veigar = new VeigaristaJS("Sua-Key-Vem-Aqui")
 
 ## Funções disponiveis
 ~~~javascript
-//Em-Breve
+//Em-Breve 
 ~~~
