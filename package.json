@@ -1,0 +1,14 @@
+{
+  "name": "veigaristajs",
+  "version": "1.0.0",
+  "description": "Biblioteca feita em nodejs, com base na api da riotgames (League of Legends).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Klinger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
